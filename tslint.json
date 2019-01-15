@@ -1,0 +1,17 @@
+{
+  "extends": ["tslint:recommended", "tslint-config-airbnb", "tslint-react", "tslint-config-prettier"],
+  "defaultSeverity": "warning",
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**/*.ts"
+    ]
+  },
+  "rules": {
+    "no-console": false,
+    "ordered-imports": false,
+    "jsx-no-lambda": false,
+    "no-var-requires": false,
+    "object-literal-sort-keys": false,
+    "member-access": [true, "no-public"]
+  }
+}
